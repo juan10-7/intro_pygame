@@ -8,8 +8,9 @@ pygame.mixer.init()
 # colores
 COLOR_BLANCO = pygame.Color(255,255,255)
 
+
 # ventana
-PANTALLA = pygame.display.set_mode((400,400))
+PANTALLA = pygame.display.set_mode((400, 400))
 PANTALLA.fill(COLOR_BLANCO)
 pygame.display.set_caption("sonidos en pygame")
 
@@ -17,7 +18,7 @@ CONTINUAR = True
 
 # sonido de fondo
 SILBATO = pygame.mixer.music.load("sounds/silbato.ogg")
-pygame.mixer.music.play (1,0,0)
+pygame.mixer.music.play(1,0,0)
 
 # efectos sonoros
 GALLO = pygame.mixer.Sound("sounds/gallo.ogg")
